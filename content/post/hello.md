@@ -1,15 +1,25 @@
 +++
 title = 'Hello'
 date = 2023-12-24T17:25:12+09:00
-draft = false
+draft = true
 tags = ["その他"]
 +++
+
 
 工藤と申します。
 
 
-```python:./main.py
-import pandas
-int(2)
-print("hello")
-```
+
+
+
+
+
+
+![a](../../images/soba.jpg)
+![a](../../images/soba2.jpg)
+
+<!-- ![a](/images/musical-e.png) -->
+
+
+
+
