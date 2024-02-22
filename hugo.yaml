@@ -79,8 +79,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Kuriのノート"
+    Content: 私がCTFを中心に情報を書き留めておくためのサイトです。余計な文多め。
 
   socialIcons:
     - name: twitter
@@ -145,3 +145,18 @@ markup:
     guessSyntax: true
     lineNos: true
     style: vulcan
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+params:
+  math: true
